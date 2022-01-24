@@ -1,6 +1,6 @@
 function sumOfAll(input){
-let inputArr= input.toString();
-inputArr=input.split('');
+
+let inputArr=input.split('');
 let sum = inputArr.reduce((total,sum)=>
      parseInt(total) + parseInt(sum));
 
